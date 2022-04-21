@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Java Café</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cafe, cafetera">
+    <meta name="description" content="">
+    <meta name="author" content="Juan Bautista Colucci">
+    <link rel="icon" href="../img/javaicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Inicio Header -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html">
+                <img src="../img/javalogo.png" alt="Java cafe" class="header__logo--img">
+            </a>
+        </div>
+
+        <!-- Inicio zona navegable -->
+        <nav class="header__nav">
+            <div class="header__nav--div">
+                <a href="../index.html">Inicio</a>
+            </div>
+            <div class="header__nav--div">
+                <a href="../index.html#quienessomos">Quienes somos</a>
+            </div>
+            <div class="header__nav--div">
+                <a href="productos.html">Productos</a>
+            </div>
+            <div class="header__nav--div">
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+
+        <div class="header__login">
+            <div class="header__login--div">
+                <a href="../pages/login.html">Iniciar sesión</a>
+            </div>
+            <div class="header__login--div">
+                <a href="../pages/login.html#registrate">Registrarme</a>
+            </div>
+        </div>
+        <!-- Fin zona navegable -->
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Formularios de inicio de sesión y registro (no funcionan ya que requieren conocimiento avanzado) -->
+    <h2>Iniciar sesión</h2>
+
+    <form action="" method="post" class="login">
+
+        <div class="login-mail">
+            <label for="mail">Mail</label>
+            <input type="mail" id="mail" name="correo" placeholder="Ej: juan@gmail.com" required>
+        </div>
+
+        <div class="login.password">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="contraseña" required>
+        </div>
+
+        <input type="submit">
+    </form>
+
+    <h2>Registrarme</h2>
+
+    <form action="" method="post" id="registrate" class="signup">
+
+        <div>
+            <label for="name">Nombre completo</label>
+            <input type="name" id="name" name="nombre">
+        </div>
+
+        <div>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" id="date" name="fecha" required>
+        </div>
+
+        <div>
+            <label for="number">Telefono celular</label>
+            <input type="number" id="number" name="numero" placeholder="Ej: 291 5105743" required>
+        </div>
+
+        <div>
+            <label for="mail">Mail</label>
+            <input type="mail" id="mail" name="correo" placeholder="juan@gmail.com" required>
+        </div>
+
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="contraseña" required>
+        </div>
+
+        <div>
+            <label for="password2">Repetir contraseña</label>
+            <input type="password" id="password1" name="contraseña1" required>
+        </div>
+
+        <input type="submit">
+    </form>
+    <!-- Fin formularios -->
+
+    <!-- Inicio footer -->
+    <footer class="footer">
+        <div>
+            <h3 id="contacto" class="footer__contacto">Contacto</h3>
+            <div>
+                <div><a href="https://www.instagram.com/bautistacolucci/" target="_BLANCK">Instagram</a></div>
+                <div><a href="https://twitter.com/bautistacolucci" target="_BLANCK">Twitter</a></div>
+            </div>
+        </div>
+        <!-- Logo en el centro -->
+        <img src="../img/javalogo.png" alt="logo" class="footer__logo">
+        <div class="footer__mapa">
+            <h3>Donde encontrarnos</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.0197521463865!2d-62.267265184150446!3d-38.71735549405703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcb282fa3be5%3A0x68cfdc255dbdc83c!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1646858560545!5m2!1ses!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </footer>
+    <!-- Fin footer -->
+
+</body>
+
+</html>
