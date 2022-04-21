@@ -1,7 +1,5 @@
 # javacafe-colucci
 Proyecto para Coderhouse
-# java-colucci
-Proyecto para Desarrollo Web de Coderhouse
 <h1 align="center">Hi 👋, I'm Juan Bautista Colucci</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
