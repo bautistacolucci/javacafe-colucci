@@ -25,4 +25,37 @@ body {
   color: #A67356;
 }
 
+.prueba {
+  width: 20rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: absolute;
+  text-align: center;
+  color: #F2F2F2;
+  right: 40vw;
+  padding-top: 500px;
+  bottom: 120px;
+  z-index: 1010;
+  --animate-duration: 5s;
+  --animate-repeat: 1;
+}
+
+.prueba2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #F2F2F2;
+  text-align: center;
+  width: 20rem;
+  position: absolute;
+  right: 40vw;
+  bottom: 80px;
+  z-index: 1010;
+  animation-delay: 3s;
+  --animate-duration: 5s;
+}
+
+.carrousel {
+  height: 100vh;
+}
+
 /*# sourceMappingURL=style.css.map */
