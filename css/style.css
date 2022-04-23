@@ -9,6 +9,14 @@
   background-color: #D9D9D9;
 }
 
+.producto-black {
+  background-color: #2b2625;
+}
+
+.producto {
+  background-color: #D9D9D9;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -56,6 +64,12 @@ body {
 
 .carrousel {
   height: 100vh;
+}
+
+.producto:hover, .producto-black:hover {
+  box-shadow: 0px 0px 10px 1px rgba(110, 104, 86, 0.774);
+  transform: scale(1.01);
+  transition: all 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */

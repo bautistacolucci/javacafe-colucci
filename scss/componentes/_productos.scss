@@ -1,0 +1,12 @@
+.producto-black {
+    background-color: $color-negro;
+}
+
+.producto {
+background-color: $color-ligtgris;
+}
+
+.producto:hover, .producto-black:hover{
+    @extend %card
+}
+
