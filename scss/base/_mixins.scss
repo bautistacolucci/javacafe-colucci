@@ -1,0 +1,5 @@
+@mixin img($radius, $shadow) {
+    border-radius: $radius;
+    box-shadow: $shadow;
+}
+

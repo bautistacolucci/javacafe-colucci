@@ -1,3 +1,5 @@
+@import '../base/mixins';
+
 .producto-black {
     background-color: $color-negro;
 }
@@ -7,6 +9,9 @@ background-color: $color-ligtgris;
 }
 
 .producto:hover, .producto-black:hover{
-    @extend %card
+    @extend %card;
 }
 
+.img-bolsa {
+    @include img(3px, 0px 0px 10px 1px #6e6856c5);
+}
