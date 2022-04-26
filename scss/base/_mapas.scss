@@ -9,13 +9,3 @@ $edicion-standard: (
 bg-standard: $color-gris,
 color-standard: $color-negro,
 );
-
-.body-cafe-black {
-     background-color: map-get($edicion-black, bg-black);
-     color: map-get($edicion-black, color-black);
-}
-
-.body-cafe-standard {
-    background-color: map-get($edicion-standard, bg-standard);
-    color: map-get($edicion-standard, color-standard)   
-}

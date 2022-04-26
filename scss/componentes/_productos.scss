@@ -1,4 +1,5 @@
 @import '../base/mixins';
+@import '../base/mapas';
 
 .producto-black {
     background-color: $color-negro;
@@ -14,4 +15,14 @@ background-color: $color-ligtgris;
 
 .img-bolsa {
     @include img(3px, 0px 0px 10px 1px #6e6856c5);
+}
+
+.body-cafe-black {
+    background-color: map-get($edicion-black, bg-black);
+    color: map-get($edicion-black, color-black);
+}
+
+.body-cafe-standard {
+   background-color: map-get($edicion-standard, bg-standard);
+   color: map-get($edicion-standard, color-standard)   
 }

@@ -22,6 +22,16 @@
   box-shadow: 0px 0px 10px 1px rgba(110, 104, 86, 0.7725490196);
 }
 
+.body-cafe-black {
+  background-color: #2b2625;
+  color: #D9D9D9;
+}
+
+.body-cafe-standard {
+  background-color: #A6A6A6;
+  color: #2b2625;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -80,16 +90,6 @@ body {
   box-shadow: 0px 0px 10px 1px rgba(110, 104, 86, 0.774);
   transform: scale(1.01);
   transition: all 0.4s;
-}
-
-.body-cafe-black {
-  background-color: #2b2625;
-  color: #D9D9D9;
-}
-
-.body-cafe-standard {
-  background-color: #A6A6A6;
-  color: #2b2625;
 }
 
 /*# sourceMappingURL=style.css.map */
