@@ -16,7 +16,7 @@ body {
     font-family: 'Libre Franklin', 'Roboto', 'sans-serif';
     background-color: $color-blanco;
     color: $color-marron;
-} 
+}
 
 
 .prueba {
@@ -52,6 +52,10 @@ body {
 height: 100vh;
 } */
 
-.beneficios__div1--img {
-    @include img(3px, 0px 0px 10px 1px #6e6856c5)
+.beneficios {
+    div {
+        img {
+            @include img(3px, 0px 0px 10px 1px #6e6856c5)
+        }
+    }
 }
