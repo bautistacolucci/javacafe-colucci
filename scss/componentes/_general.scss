@@ -7,9 +7,17 @@
     margin: 0;
 }
 
-a {
+a{
     text-decoration: none;
     color: $color-marron;
+}
+
+a:hover {
+    color: $color-marron;
+}
+
+li {
+    list-style: none;
 }
 
 body {
