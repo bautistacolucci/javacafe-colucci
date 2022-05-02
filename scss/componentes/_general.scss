@@ -18,6 +18,7 @@ body {
     color: $color-marron;
 } 
 
+
 .prueba {
     width: 20rem;
     font-size: 1.5rem;
@@ -27,7 +28,7 @@ body {
     color: $color-blanco;
     right: 40vw;
     padding-top: 500px;
-    bottom: 120px;
+    bottom: 20vh;
     z-index: 1010;
     --animate-duration: 5s;
     --animate-repeat: 1;
@@ -47,9 +48,9 @@ body {
     --animate-duration: 5s;
 }
 
-.carrousel {
+/* .carrousel {
 height: 100vh;
-}
+} */
 
 .beneficios__div1--img {
     @include img(3px, 0px 0px 10px 1px #6e6856c5)
