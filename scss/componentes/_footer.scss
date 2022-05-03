@@ -1,18 +1,30 @@
 @import '../base/colors';
 
 .footer {
-    background-color: $color-ligtgris;
+    background-color: $color-marron;
+    color: $color-lightgris;
+}
+footer a {
+    color: $color-lightgris;
+}
+
+footer a:hover {
+    color: $color-blanco;
+    transition: all 1.5s;
 }
 
 .footer h3 {
     font-size: 1.5rem;
 }
 
-
+.autor {
+    background-color: $color-darkgris;
+    font-size: .9rem;
+}
 
 
 
 .division{
     width: 100%;
-    border-top: 1.8px solid $color-marron;
+    border-top: 1.8px solid $color-lightgris;
 }

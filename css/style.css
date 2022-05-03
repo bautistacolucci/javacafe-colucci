@@ -6,16 +6,31 @@
 }
 
 .footer {
-  background-color: #D9D9D9;
+  background-color: #725645;
+  color: #b9b4b4;
+}
+
+footer a {
+  color: #b9b4b4;
+}
+
+footer a:hover {
+  color: #F2F2F2;
+  transition: all 1.5s;
 }
 
 .footer h3 {
   font-size: 1.5rem;
 }
 
+.autor {
+  background-color: #867d7d;
+  font-size: 0.9rem;
+}
+
 .division {
   width: 100%;
-  border-top: 1.8px solid #A67356;
+  border-top: 1.8px solid #b9b4b4;
 }
 
 .producto-black {
@@ -23,7 +38,7 @@
 }
 
 .producto {
-  background-color: #D9D9D9;
+  background-color: #b9b4b4;
 }
 
 .img-bolsa {
@@ -33,7 +48,7 @@
 
 .body-cafe-black {
   background-color: #2b2625;
-  color: #D9D9D9;
+  color: #b9b4b4;
 }
 
 .body-cafe-standard {
@@ -48,11 +63,11 @@
 
 a {
   text-decoration: none;
-  color: #A67356;
+  color: #725645;
 }
 
 a:hover {
-  color: #A67356;
+  color: #725645;
 }
 
 li {
@@ -62,7 +77,7 @@ li {
 body {
   font-family: "Libre Franklin", "Roboto", "sans-serif";
   background-color: #F2F2F2;
-  color: #A67356;
+  color: #725645;
 }
 
 .prueba {
