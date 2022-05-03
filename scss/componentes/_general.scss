@@ -7,7 +7,13 @@
     margin: 0;
 }
 
-a{
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
     text-decoration: none;
     color: $color-marron;
 }
