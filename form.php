@@ -16,6 +16,6 @@ $asunto = 'Datos del formulario Suscripción Sorpresa!'
 mail($para, $asunto, utf8_decode($nombre, $apellido, $email, $cel, $postal, $domicilio, $entrega));
 
 /* Redireccion */
-header('location: <pages>pagar.html')
+header('location: https://javacafe-colucci.netlify.app/pages/sorpresa.html');
 
 ?>
