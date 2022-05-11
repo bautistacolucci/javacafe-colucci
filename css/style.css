@@ -116,18 +116,25 @@ body {
 /* .carrousel {
 height: 100vh;
 } */
-.beneficios .beneficios-div {
-  padding: 7px;
+.section .section-div-img {
+  padding: 7.5px;
   border-top: 2px solid black;
   border-left: 2px solid black;
   border-right: 2px solid brown;
   border-bottom: 2px solid brown;
 }
-.beneficios .beneficios-div img {
-  border-radius: 2.5px;
-  box-shadow: 0px 3px 12px 2px rgba(10, 10, 10, 0.7725490196);
+.section .section-div-img img {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 2.5px 10px 1.5px rgba(0, 0, 0, 0.7725490196);
 }
 
+@media (max-width: 992px) {
+  .section-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 *, *:after, *:before {
   box-sizing: border-box;
 }
