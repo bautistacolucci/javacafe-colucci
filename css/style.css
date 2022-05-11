@@ -116,9 +116,16 @@ body {
 /* .carrousel {
 height: 100vh;
 } */
-.beneficios div img {
-  border-radius: 3px;
-  box-shadow: 0px 0px 10px 1px rgba(110, 104, 86, 0.7725490196);
+.beneficios .beneficios-div {
+  padding: 7px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid brown;
+  border-bottom: 2px solid brown;
+}
+.beneficios .beneficios-div img {
+  border-radius: 2.5px;
+  box-shadow: 0px 3px 12px 2px rgba(10, 10, 10, 0.7725490196);
 }
 
 *, *:after, *:before {

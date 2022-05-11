@@ -67,9 +67,14 @@ height: 100vh;
 } */
 
 .beneficios {
-    div {
+    .beneficios-div {
+        padding: 7px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid brown;
+        border-bottom: 2px solid brown;
         img {
-            @include img(3px, 0px 0px 10px 1px #6e6856c5)
+            @include img(2.5px, 0px 3px 12px 2px #0a0a0ac5)
         }
     }
 }
