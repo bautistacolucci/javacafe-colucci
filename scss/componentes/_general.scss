@@ -32,41 +32,23 @@ body {
     color: $color-marron;
 }
 
-
-.prueba {
-    width: 20rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-    position: absolute;
-    text-align: center;
-    color: $color-blanco;
-    right: 40vw;
-    padding-top: 500px;
-    bottom: 20vh;
-    z-index: 1010;
-    --animate-duration: 5s;
-    --animate-repeat: 1;
+.header {
+    background-color: $color-extrablanco;
+    a {
+        color: $color-negro;
+    }
+    a:hover {
+        color: black;
+    }
 }
 
-.prueba2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: $color-blanco;
-    text-align: center;
-    width: 20rem;
-    position: absolute;
-    right: 40vw;
-    bottom: 80px;
-    z-index: 1010;
-    animation-delay: 3s;
-    --animate-duration: 5s;
+.carrousel {
+height: 50vh;
+object-fit: cover;
 }
-
-/* .carrousel {
-height: 100vh;
-} */
 
 .section {
+    
     .section-div-img {
         padding: 7.5px;
         border-top: 2px solid black;
@@ -86,3 +68,33 @@ height: 100vh;
         flex-direction: column-reverse;
     }
 }
+
+
+/* .prueba {
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    color: $color-blanco;
+    right: 40vw;
+    bottom: 15vh;
+    padding-top: 50px;
+    z-index: 1010;
+    --animate-duration: 5s;
+    --animate-repeat: 1;
+}
+
+.prueba2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $color-blanco;
+    text-align: center;
+    width: 20rem;
+    position: absolute;
+    right: 40vw;
+    bottom: 80px;
+    z-index: 1010;
+    animation-delay: 3s;
+    --animate-duration: 5s;
+} */
