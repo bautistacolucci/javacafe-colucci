@@ -34,33 +34,35 @@ body {
 
 .header {
     background-color: $color-extrablanco;
+
     a {
         color: $color-negro;
     }
+
     a:hover {
         color: black;
     }
 }
 
 .carrousel {
-height: 50vh;
-object-fit: cover;
+    height: 60vh;
+    object-fit: cover;
 }
 
-.section {
-    
-    .section-div-img {
-        padding: 7.5px;
-        border-top: 2px solid black;
-        border-left: 2px solid black;
-        border-right: 2px solid brown;
-        border-bottom: 2px solid brown;
-        img {
-            width: 100%;
-            @include img(3px, 0px 2.5px 10px 1.5px #000000c5)
-        }
+
+.section-div-img {
+    padding: 7.5px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid brown;
+    border-bottom: 2px solid brown;
+
+   img {
+        width: 100%;
+        @include img(3px, 0px 2.5px 10px 1.5px #000000c5)
     }
 }
+
 
 @media (max-width:992px) {
     .section-row {

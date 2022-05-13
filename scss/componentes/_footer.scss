@@ -2,27 +2,34 @@
 
 
 .footer {
-    background-color: $color-marron;
-    color: $color-lightgris;
+    background-color: $color-negro;
+    color: $color-dorado;
     margin-top: auto;
     h3 {
         font-size: 1.5rem;
     }
     a {
-        color: $color-lightgris;
+        color: $color-dorado;
+        transition: all .7s;
     }
     a:hover {
         color: $color-extrablanco;
-        transition: all .7s;
+        
     }
 }
 
 .division {
     width: 100%;
-    border-top: 1.8px solid $color-lightgris;
+    border-top: 1.8px solid $color-dorado;
 }
 
 .autor {
     background-color: $color-darkgris;
     font-size: .9rem;
+    .firma {
+        color: $color-negro;
+    }
+    a {
+        color: $color-negro;
+    }
 }
