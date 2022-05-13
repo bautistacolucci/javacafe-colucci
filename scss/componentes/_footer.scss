@@ -4,32 +4,40 @@
 .footer {
     background-color: $color-negro;
     color: $color-dorado;
-    margin-top: auto;
+
     h3 {
         font-size: 1.5rem;
     }
+
     a {
         color: $color-dorado;
         transition: all .7s;
-    }
-    a:hover {
-        color: $color-extrablanco;
-        
-    }
-}
 
-.division {
-    width: 100%;
-    border-top: 1.8px solid $color-dorado;
-}
-
-.autor {
-    background-color: $color-darkgris;
-    font-size: .9rem;
-    .firma {
-        color: $color-negro;
+        &:hover,
+        &:active {
+            color: $color-extrablanco;
+        }
     }
-    a {
-        color: $color-negro;
+
+    .division {
+        width: 100%;
+        border-top: 1.8px solid $color-dorado;
+    }
+
+    .autor {
+        background-color: $color-darkgris;
+        font-size: .9rem;
+
+        .firma {
+            color: $color-negro;
+        }
+
+        a {
+            color: $color-negro;
+
+            &:hover, &:active {
+                color: $color-extrablanco;
+            }
+        }
     }
 }

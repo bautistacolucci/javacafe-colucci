@@ -1,7 +1,7 @@
 @import '../base/colors';
 
 .section-sorpresa {
-	background-color: #f3f3f3;
+	background-color: #f0f0f0;
 	border-radius: 5px;
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
 }
@@ -23,7 +23,6 @@
 	padding: 2rem 1rem;
 	width: 100%;
 	max-width: 40rem;
-	background-color: #f3f3f3;
 	border-radius: 5px;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .form-label {
-	color: #8597a3;
+	color: $color-darkgris;
 	position: absolute;
 	top: 1.5rem;
 	transition: .25s ease;
@@ -46,7 +45,7 @@
 	border: 0;
 	z-index: 1;
 	background-color: transparent;
-	border-bottom: 2px solid #eee;
+	border-bottom: 2px solid $color-lightgris;
 	font-size: 1.125rem;
 	padding: .25rem 0;
 
