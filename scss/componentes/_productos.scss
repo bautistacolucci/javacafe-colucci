@@ -1,20 +1,38 @@
 @import '../base/mixins';
 @import '../base/mapas';
+@import '../base/colors';
+@import 'animate.css';
+
+.cards {
+    width: 30rem;
+    /* padding: 7.5px; */
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid $color-dorado;
+    border-bottom: 2px solid $color-dorado;
+
+    img {
+        width: 100%;
+        transition: all 1s;
+
+        &:hover {
+            transform: scale(1.04);
+            filter: brightness(70%);
+        }
+    }
+}
+
+.producto {
+    background-color: $color-lightgris;
+}
 
 .producto-black {
     background-color: $color-negro;
 }
 
-.producto {
-background-color: $color-lightgris;
-}
-
-.producto:hover, .producto-black:hover{
-    @extend %card;
-}
-
-.img-bolsa {
-    @include img(3px, 0px 0px 10px 1px #6e6856c5);
+.body-cafe-standard {
+    background-color: map-get($edicion-standard, bg-standard);
+    color: map-get($edicion-standard, color-standard)
 }
 
 .body-cafe-black {
@@ -22,7 +40,55 @@ background-color: $color-lightgris;
     color: map-get($edicion-black, color-black);
 }
 
-.body-cafe-standard {
-   background-color: map-get($edicion-standard, bg-standard);
-   color: map-get($edicion-standard, color-standard)   
+
+
+
+.img-bolsa {
+    @include img(3px, 0px 0px 10px 1px #6e6856c5);
+}
+
+.contenedor-tarjeta {
+    margin: 0 5rem;
+}
+
+.tarjeta {
+    width: 26rem;
+    margin: 5rem;
+    border-radius: 3px;
+
+    img {
+        width: 100%;
+        border-radius: 3px;
+        transition: all 1s;
+        position: relative;
+    }
+
+    div {
+        padding: 0 1.5rem;
+        width: 25rem;
+        position: relative;
+        bottom: 6rem;
+        visibility: hidden;
+        color: $color-medioblanco;
+
+        a {
+            font-size: 1.1rem;
+            color: $color-medioblanco;
+        }
+    }
+
+    &:hover {
+
+        & img {
+            filter: brightness(65%);
+        }
+
+
+        & div {
+            color: $color-medioblanco;
+            visibility: visible;
+            animation: fadeInUp;
+            animation-duration: 1s;
+        }
+    }
 }
