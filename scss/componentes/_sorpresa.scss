@@ -89,6 +89,14 @@
 	border-radius: 6px;
 	color: #474d52;
 	border: 0;
+	transition: .4s;
+
+	&:hover {
+		background-color: $color-darkdorado;
+	}
+	&:active {
+		background-color: $color-lightdorado;
+	}
 
 	&:focus {
 		outline: 0;

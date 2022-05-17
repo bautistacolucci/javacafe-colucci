@@ -59,21 +59,16 @@ $color-blanco: #F2F2F2;
 $color-extrablanco: #ffffff;
 $color-lightgris: #b9b4b4;
 $color-darkgris: #867d7d; */
-.cards {
-  width: 30rem;
-  /* padding: 7.5px; */
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid #c0aa83;
-  border-bottom: 2px solid #c0aa83;
-}
-.cards img {
+.banner {
   width: 100%;
-  transition: all 1s;
+  height: 60vh;
+  margin-bottom: 100px;
+  background-image: url("../../img/productos2.png");
+  background-size: cover;
+  background-position: center;
 }
-.cards img:hover {
-  transform: scale(1.04);
-  filter: brightness(70%);
+.banner h1 {
+  font-size: 40px;
 }
 
 .producto {
@@ -100,12 +95,12 @@ $color-darkgris: #867d7d; */
 }
 
 .contenedor-tarjeta {
-  margin: 0 5rem;
+  margin: 0 3rem;
 }
 
 .tarjeta {
   width: 26rem;
-  margin: 5rem;
+  margin: 3rem;
   border-radius: 3px;
 }
 .tarjeta img {
@@ -331,6 +326,13 @@ $color-darkgris: #867d7d; */
   border-radius: 6px;
   color: #474d52;
   border: 0;
+  transition: 0.4s;
+}
+.form-button:hover {
+  background-color: #ac9a7b;
+}
+.form-button:active {
+  background-color: #d3c1a1;
 }
 .form-button:focus {
   outline: 0;

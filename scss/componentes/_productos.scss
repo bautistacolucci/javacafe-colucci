@@ -3,24 +3,23 @@
 @import '../base/colors';
 @import 'animate.css';
 
-.cards {
-    width: 30rem;
-    /* padding: 7.5px; */
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid $color-dorado;
-    border-bottom: 2px solid $color-dorado;
+.banner {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 100px;
+   
+    background-image: url("../../img/productos2.png");
+    background-size: cover;
+    background-position: center;
 
-    img {
-        width: 100%;
-        transition: all 1s;
-
-        &:hover {
-            transform: scale(1.04);
-            filter: brightness(70%);
-        }
+    h1 {
+        
+        font-size: 40px;
     }
+
 }
+
+
 
 .producto {
     background-color: $color-lightgris;
@@ -48,12 +47,12 @@
 }
 
 .contenedor-tarjeta {
-    margin: 0 5rem;
+    margin: 0 3rem;
 }
 
 .tarjeta {
     width: 26rem;
-    margin: 5rem;
+    margin: 3rem;
     border-radius: 3px;
 
     img {
