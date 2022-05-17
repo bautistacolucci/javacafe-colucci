@@ -46,8 +46,8 @@ li {
     object-fit: cover;
 }
 
-.section{
-    p{
+.section {
+    p {
         text-align: justify;
         line-height: 25px;
     }
@@ -60,7 +60,7 @@ li {
     border-right: 2.5px solid $color-dorado;
     border-bottom: 2.5px solid $color-dorado;
 
-   img {
+    img {
         width: 100%;
         @include img(3px, 0px 2.5px 10px 1.5px #000000c5)
     }
@@ -69,7 +69,8 @@ li {
 .span-sorpresa {
     a {
         color: $color-dorado;
-        text-decoration:underline;
+        text-decoration: underline;
+
         &:hover {
             color: $color-negro;
         }

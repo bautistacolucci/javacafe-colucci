@@ -2,8 +2,16 @@
 
 .section-sorpresa {
 	background-color: #f0f0f0;
-	border-radius: 5px;
-	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	box-shadow: 0 0px 20px 0 rgba(#999, .25);
+	padding-bottom: 1rem;
+}
+
+.mapa {
+	margin: auto 0;
+	height: 60vh;
+	iframe {
+		box-shadow: 0 0px 20px 0 rgba(#999, .25);
+	}
 }
 
 .carrousel-sorpresa {
@@ -16,6 +24,11 @@
 			}
 		}
 	}
+}
+
+.textarea {
+	min-height: 8rem;
+	resize: none;
 }
 
 .form-envio {
@@ -97,8 +110,5 @@
 	&:active {
 		background-color: $color-lightdorado;
 	}
-
-	&:focus {
-		outline: 0;
-	}
 }
+
