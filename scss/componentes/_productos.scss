@@ -1,32 +1,21 @@
 @import '../base/mixins';
 @import '../base/mapas';
 @import '../base/colors';
-@import 'animate.css';
+
 
 .banner {
     width: 100%;
     height: 60vh;
     margin-bottom: 100px;
-   
+
     background-image: url("../../img/productos2.png");
     background-size: cover;
     background-position: center;
 
     h1 {
-        
+        font-weight: 500;
         font-size: 40px;
     }
-
-}
-
-
-
-.producto {
-    background-color: $color-lightgris;
-}
-
-.producto-black {
-    background-color: $color-negro;
 }
 
 .body-cafe-standard {
@@ -38,9 +27,6 @@
     background-color: map-get($edicion-black, bg-black);
     color: map-get($edicion-black, color-black);
 }
-
-
-
 
 .img-bolsa {
     @include img(3px, 0px 0px 10px 1px #6e6856c5);
@@ -73,6 +59,7 @@
         a {
             font-size: 1.1rem;
             color: $color-medioblanco;
+            visibility: visible;
         }
     }
 
@@ -89,5 +76,32 @@
             animation: fadeInUp;
             animation-duration: 1s;
         }
+    }
+}
+
+@media (max-width:992px) {
+    .tarjeta {
+        div {
+            a {
+                visibility: visible;
+            }
+        }
+    }
+
+}
+
+@media (max-width:572px) {
+    .contenedor-tarjeta {
+        margin: 0;
+    }
+
+    .tarjeta {
+        width: 20rem;
+        margin: 0;
+
+        img {
+            width: 100%
+        }
+
     }
 }

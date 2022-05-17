@@ -1,6 +1,13 @@
-.header{
+@import '../base/colors';
+
+#header{
+    background-color: $color-negro;
     box-shadow: 0px -2px 10px 3px rgba(0,0,0,0.5);
--webkit-box-shadow: 0px -2px 10px 3px rgba(0,0,0,0.5);
--moz-box-shadow: 0px -2px 10px 3px rgba(0,0,0,0.5);
+    a {
+        color: $color-dorado;
+        transition: all .7s;
+    }
+    a:hover {
+        color: $color-medioblanco;
+    }
 }
- 

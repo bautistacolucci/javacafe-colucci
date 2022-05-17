@@ -1,9 +1,14 @@
-@import 'animate.css';
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
-.header {
+#header {
+  background-color: #363130;
   box-shadow: 0px -2px 10px 3px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0px -2px 10px 3px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px -2px 10px 3px rgba(0, 0, 0, 0.5);
+}
+#header a {
+  color: #c0aa83;
+  transition: all 0.7s;
+}
+#header a:hover {
+  color: #ebebeb;
 }
 
 .footer {
@@ -47,15 +52,8 @@
   background-position: center;
 }
 .banner h1 {
+  font-weight: 500;
   font-size: 40px;
-}
-
-.producto {
-  background-color: #b9b4b4;
-}
-
-.producto-black {
-  background-color: #363130;
 }
 
 .body-cafe-standard {
@@ -99,6 +97,7 @@
 .tarjeta div a {
   font-size: 1.1rem;
   color: #ebebeb;
+  visibility: visible;
 }
 .tarjeta:hover img {
   filter: brightness(65%);
@@ -110,9 +109,31 @@
   animation-duration: 1s;
 }
 
+@media (max-width: 992px) {
+  .tarjeta div a {
+    visibility: visible;
+  }
+}
+@media (max-width: 572px) {
+  .contenedor-tarjeta {
+    margin: 0;
+  }
+
+  .tarjeta {
+    width: 20rem;
+    margin: 0;
+  }
+  .tarjeta img {
+    width: 100%;
+  }
+}
 * {
   padding: 0;
   margin: 0;
+}
+
+.disclaimer {
+  display: none;
 }
 
 body {
@@ -173,6 +194,7 @@ li {
 .span-sorpresa a {
   color: #c0aa83;
   text-decoration: underline;
+  transition: all 0.7s;
 }
 .span-sorpresa a:hover {
   color: #363130;
@@ -184,34 +206,6 @@ li {
     flex-direction: column-reverse;
   }
 }
-/* .prueba {
-    width: 20rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-    position: absolute;
-    text-align: center;
-    color: $color-blanco;
-    right: 40vw;
-    bottom: 15vh;
-    padding-top: 50px;
-    z-index: 1010;
-    --animate-duration: 5s;
-    --animate-repeat: 1;
-}
-
-.prueba2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: $color-blanco;
-    text-align: center;
-    width: 20rem;
-    position: absolute;
-    right: 40vw;
-    bottom: 80px;
-    z-index: 1010;
-    animation-delay: 3s;
-    --animate-duration: 5s;
-} */
 .section-sorpresa {
   background-color: #f0f0f0;
   box-shadow: 0 0px 20px 0 rgba(153, 153, 153, 0.25);
