@@ -29,12 +29,12 @@
 
 <body>
     <!-- Header -->
-    <header class="header sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <header class="header sticky-top" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid ">
                 <div class="container-fluid col">
                     <a class="navbar-brand" href="../index.html">
-                        <img src="../img/javalogo.png" alt="" width="30" height="24"
+                        <img src="../img/javalogo.png" alt="" width="35" height="29"
                             class="d-inline-block align-text-top">
                         Java Café
                     </a>
@@ -69,9 +69,12 @@
     </header>
     <!-- Fin Header -->
 
+    <!-- Formulario -->
     <section class="container section-sorpresa">
         <div class="row mt-5">
-            <div id="carouselExampleFade" class="carrousel-sorpresa carousel slide carousel-fade col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-auto " data-bs-ride="carousel">
+            <div id="carouselExampleFade"
+                class="carrousel-sorpresa carousel slide carousel-fade col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-auto "
+                data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="../img/sorpresa1.png" class="d-block w-100" alt="...">
@@ -83,11 +86,13 @@
                         <img src="../img/sorpresa3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -120,7 +125,8 @@
                         <label for="domicilio" class="form-label">Domicilio</label>
                     </div>
                     <div class="form-div">
-                        <input type="text" id="entrega" name="entrega" placeholder="ej: departamento 3D" class="form-input">
+                        <input type="text" id="entrega" name="entrega" placeholder="ej: departamento 3D"
+                            class="form-input">
                         <label for="entrega" class="form-label">Aclaración para la entrega</label>
                     </div>
                     <div>
@@ -138,14 +144,14 @@
             </div>
         </div>
     </section>
-
+    <!-- Fin formulario -->
 
     <!-- Footer -->
-    <footer class="footer ">
-        <div class="container py-4">
+    <footer class="footer">
+        <div class="container-fluid py-2">
             <div class="row">
                 <!-- Ubicacion y contacto -->
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="p-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <h3 class="footer-javacafe my-1">Java Cafe</h3>
                     <p class="my-1">Tomá cafe bueno</p>
                     <div class="division"></div>
@@ -154,17 +160,17 @@
                     <p class="m-0">(+54) 11 0077 007</p>
                 </div>
                 <!-- Navegacion -->
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="py-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <ul class="">
                         <li class="text-center"><a href="../index.html">Inicio</a></li>
                         <li class="text-center"><a href="../index.html#quienessomos">Quienes somos</a></li>
                         <li class="text-center"><a href="productos.html">Productos</a></li>
-                        <li class="text-center"><a href="contacto">Contacto</a></li>
-                        <li class="text-center"><a href="suscripcion">Quiero cafe!</a></li>
+                        <li class="text-center"><a href="contacto.html">Contacto</a></li>
+                        <li class="text-center"><a href="sorpresa.html">Quiero cafe!</a></li>
                     </ul>
                 </div>
                 <!-- Redes sociales -->
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-end">
+                <div class="p-4 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-end">
                     <h3 id="contacto" class="my-1">Sigamos conectados</h3>
                     <div>
                         <div class="mx-1 d-inline"><a href="https://www.instagram.com/bautistacolucci/"
@@ -195,7 +201,7 @@
         </div>
         <!-- Firma de autor -->
         <div class="pt-2 text-center autor">
-            <p class="m-0">Desarrollado por Juan Colucci</p>
+            <p class="m-0 firma">Desarrollado por Juan Colucci</p>
             <div class="d-flex justify-content-center">
                 <a href="https://www.linkedin.com/in/juan-bautista-colucci/" target="_BLANCK" class="mx-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
