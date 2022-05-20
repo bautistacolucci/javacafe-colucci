@@ -1,0 +1,9 @@
+@import '../base/colors';
+
+$edicion-standard: (bg-standard: $color-blanco,
+    color-standard: $color-negro,
+);
+
+$edicion-black: (bg-black: $color-negronegro,
+    color-black: $color-blanco,
+);

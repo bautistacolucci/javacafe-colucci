@@ -2,48 +2,7 @@
 @import '../base/colors';
 @import '../base/mixins';
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.disclaimer {
-    display: none;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: $color-blanco;
-    color: $color-negro;
-    font-family: 'Libre Franklin', 'Roboto', 'sans-serif';
-}
-
-a {
-    text-decoration: none;
-    color: $color-negro;
-}
-
-a:hover {
-    color: $color-negro;
-}
-
-li {
-    list-style: none;
-}
-
-.header {
-    background-color: $color-extrablanco;
-
-    a {
-        color: $color-negro;
-    }
-
-    a:hover {
-        color: black;
-    }
-}
+/* Secciones */
 
 .carrousel {
     height: 60vh;

@@ -1,0 +1,89 @@
+@import '../base/colors';
+
+/* Generales */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.disclaimer {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $color-blanco;
+    color: $color-negro;
+    font-family: 'Libre Franklin', 'Roboto', 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+    color: $color-negro;
+}
+
+a:hover {
+    color: $color-negro;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+#header{
+    background-color: $color-negro;
+    box-shadow: 0px -2px 10px 3px rgba(0,0,0,0.5);
+    a {
+        color: $color-dorado;
+        transition: all .7s;
+    }
+    a:hover {
+        color: $color-medioblanco;
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    background-color: $color-negro;
+    color: $color-dorado;
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    a {
+        color: $color-dorado;
+        transition: all .7s;
+
+        &:hover,
+        &:active {
+            color: $color-extrablanco;
+        }
+    }
+
+    .division {
+        width: 100%;
+        border-top: 1.8px solid $color-dorado;
+    }
+
+    .autor {
+        background-color: $color-darkgris;
+        font-size: .9rem;
+
+        .firma {
+            color: $color-negro;
+        }
+
+        a {
+            color: $color-negro;
+
+            &:hover, &:active {
+                color: $color-extrablanco;
+            }
+        }
+    }
+}

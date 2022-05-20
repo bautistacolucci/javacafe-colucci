@@ -1,17 +1,9 @@
 @import '../base/colors';
 
-.section-sorpresa {
+.section-form {
 	background-color: #f0f0f0;
 	box-shadow: 0 0px 20px 0 rgba(#999, .25);
 	padding-bottom: 1rem;
-}
-
-.mapa {
-	margin: auto 0;
-	height: 60vh;
-	iframe {
-		box-shadow: 0 0px 20px 0 rgba(#999, .25);
-	}
 }
 
 .carrousel-sorpresa {
@@ -111,4 +103,11 @@
 		background-color: $color-lightdorado;
 	}
 }
-
+/* Estilo mapa  */
+.mapa {
+	margin: auto 0;
+	height: 60vh;
+	iframe {
+		box-shadow: 0 0px 20px 0 rgba(#999, .25);
+	}
+}
