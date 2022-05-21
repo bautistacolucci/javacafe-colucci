@@ -7,16 +7,21 @@ $cel = $_POST['cel'];
 $postal = $_POST['postal'];
 $domicilio = $_POST['domicilio'];
 $entrega = $_POST['entrega'];
-$mensaje = $_POST['mensaje'];
 
 /* Datos de envio */
 $para = 'bautitattoogmail.com';
 $asunto = 'Datos del formulario Suscripción Sorpresa!';
 
 /* Función */
-mail($para, $asunto, utf8_decode($nombre, $apellido, $email, $cel, $postal, $domicilio, $entrega, $mensaje));
+mail($para, $asunto, utf8_decode($nombre));
+mail($para, $asunto, utf8_decode($apellido));
+mail($para, $asunto, utf8_decode($email));
+mail($para, $asunto, utf8_decode($cel));
+mail($para, $asunto, utf8_decode($postal));
+mail($para, $asunto, utf8_decode($domicilio));
+mail($para, $asunto, utf8_decode($entrega));
 
 /* Redireccion */
-header('location:./pages/pagar.html');
+header('Location:./pages/pagar.html');
 
 ?>
