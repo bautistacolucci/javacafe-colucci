@@ -9,7 +9,7 @@ $domicilio = $_POST['domicilio'];
 $entrega = $_POST['entrega'];
 
 /* Datos de envio */
-$para = 'bautitattoogmail.com';
+$para = 'bautitattoo@gmail.com';
 $asunto = 'Datos del formulario Suscripción Sorpresa!';
 
 /* Función */
@@ -22,6 +22,6 @@ mail($para, $asunto, utf8_decode($domicilio));
 mail($para, $asunto, utf8_decode($entrega));
 
 /* Redireccion */
-header('Location:../pages/pagar.html');
+header('Location:../pages/redireccion.html');
 
 ?>

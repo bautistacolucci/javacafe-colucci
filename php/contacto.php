@@ -7,7 +7,7 @@ $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
 /* Datos de envio */
-$para = 'bautitattoogmail.com';
+$para = 'bautitattoo@gmail.com';
 $asunto = 'Datos del formulario Suscripción Sorpresa!';
 
 /* Función */
@@ -19,6 +19,6 @@ mail($para, $asunto, utf8_decode($mensaje));
 
 
 /* Redireccion */
-header('Location:../pages/pagar.html');
+header('Location:../pages/redireccion.html');
 
 ?>
