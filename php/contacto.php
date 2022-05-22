@@ -8,7 +8,7 @@ $mensaje = $_POST['mensaje'];
 
 /* Datos de envio */
 $para = 'bautitattoo@gmail.com';
-$asunto = 'Datos del formulario Suscripción Sorpresa!';
+$asunto = 'Datos del formulario contacto!';
 
 /* Función */
 mail($para, $asunto, utf8_decode($nombre));
