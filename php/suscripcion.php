@@ -22,6 +22,6 @@ mail($para, $asunto, utf8_decode($domicilio));
 mail($para, $asunto, utf8_decode($entrega));
 
 /* Redireccion */
-header('Location:./pages/pagar.html');
+header('Location:../pages/pagar.html');
 
 ?>
