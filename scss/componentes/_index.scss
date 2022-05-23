@@ -8,6 +8,18 @@
     object-fit: cover;
 }
 
+.titulo {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    color: $color-dorado;
+    animation: fadeInDown;
+    animation-duration: 3s;
+    /* span {
+        color: $color-negro;
+    } */
+}
+
 .section {
     p {
         text-align: justify;
