@@ -176,9 +176,6 @@ li {
   color: #c0aa83;
   animation: fadeInDown;
   animation-duration: 3s;
-  /* span {
-      color: $color-negro;
-  } */
 }
 
 .section p {
